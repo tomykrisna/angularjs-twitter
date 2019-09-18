@@ -1,0 +1,23 @@
+<div class="jumbotron">
+  <h1>TEES.CO.ID</h1>
+</div>
+
+<div class="row marketing">
+</div>
+<div class="col-lg-12">
+  <ul class="list-group" ng-repeat="value in data[0].statuses">
+    <div>
+      <li class="list-group-item"><span class="glyphicon glyphicon-user"></span>{{value.retweeted_status.user.name}}
+      </li>
+      <li class="list-group-item">{{value.text}}</span></li>
+      <li class="list-group-item">
+            <span class="glyphicon glyphicon-envelope" style="margin-right: 12px">{{value.retweeted_status.retweet_count}}</span>
+            <span class="glyphicon glyphicon-refresh" style="margin-right: 12px">{{value.retweeted_status.retweet_count}}</span>
+            <span class="glyphicon glyphicon-heart-empty" style="margin-right: 12px">{{value.retweeted_status.favorite_count}}</span>
+            <span class="glyphicon glyphicon-open" style="margin-right: 12px"></span>
+      </li>
+    </div>
+    <!--  <li class="list-group-item">Deleted <span class="badge">5</span></li>-->
+    <!--  <li class="list-group-item">Warnings <span class="badge">3</span></li>-->
+  </ul>
+</div>
