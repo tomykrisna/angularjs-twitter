@@ -1,12 +1,11 @@
-# tees
+# cara install
+sebelum menjalankan projek lakukan perintah pada command line `npm install` 
+setelah sukses jalan perintah `bower install`.
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.16.0.
+# cara menjalankan
 
-## Build & development
+untuk menjalankan lakukan perintah `grunt serve` dan secara default akan berjalan pada port `9000`.
 
-Run `grunt` for building and `grunt serve` for preview.
 
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
+# cara build
+untuk build project ini lakukan perintah 'grunt build dan hasilnya akan ada pada folder `dist`.
