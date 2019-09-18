@@ -8,4 +8,4 @@ untuk menjalankan lakukan perintah `grunt serve` dan secara default akan berjala
 
 
 # cara build
-untuk build project ini lakukan perintah 'grunt build dan hasilnya akan ada pada folder `dist`.
+untuk build project ini lakukan perintah `grunt build` dan hasilnya akan ada pada folder `dist`.
